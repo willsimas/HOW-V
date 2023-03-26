@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #F9DADD;
+}
+
+header{
+    background-color: #EDA5A5;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo-estilo{
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.logo-estilo{
+    border-radius: 25px 25px 25px 25px;
+}
+
+.links-page1{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.lista-links{
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #C4C4C4;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.lista-links li{
+    padding-right: 5rem;
+}
+.lista-links li a{
+    text-decoration: none;
+    color: #000000;
+    
+    padding: 12px;
+    border: 1px solid #F9DADD;
+    border-radius: 20px;
+}
+
+.lista-links li a:hover{
+    text-decoration: none;
+    background-color: #eeb6bb;
+    padding: 12px;
+    border: 1px solid #F9DADD;
+    border-radius: 20px;
+}
+
+.secoes{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.secao-sobre-mim, div{
+    width: 450px;
+    height: 250px;
+    background-color: #EDA5A5;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.secao-sobre-mim, h3{
+    padding: 25px;
+    font-size: 25px;
+    color: #000000;
+}
+
+.secao-sobre-mim, p{
+    font-size: 20px;
+    color: #777;
+    text-align: justify;
+    padding: 25px;
+}
